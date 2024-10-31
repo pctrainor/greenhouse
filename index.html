@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenhouse Grinds & Garden Goods</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .profile-pic {
+            width: 50vw;
+            max-width: 750px;
+            height: auto;
+            border-radius: 10%;
+            overflow: visible;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+        }
+
+        .social-icons {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            color: #333;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #a52a2a;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .fade-in.show {
+            opacity: 1;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            color: #a52a2a;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product-item {
+            width: 30%; 
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Added to center content within .product-item */
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            display: block; /* Makes the image a block element */
+            margin-left: auto;
+            margin-right: auto; /* Centers the image horizontally */
+        }
+
+        .contact-form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 10px 0;
+            }
+
+            .container {
+                width: 95%;
+                padding: 10px;
+            }
+
+            .social-icons a {
+                font-size: 20px;
+                margin: 0 5px;
+            }
+
+            .product-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Greenhouse Grinds & Garden Goods</h1>
+    </header>
+
+    <div class="container">
+        <div class="profile-pic fade-in">
+            <img src="pics/ghg.jpg" alt="Greenhouse Grinds & Garden Goods">
+        </div>
+
+        <section id="about" class="section fade-in">
+            <h2>About Us</h2>
+            <p>Welcome to Greenhouse Grinds & Garden Goods! We're passionate about providing fresh, locally roasted coffee and homegrown produce right from our greenhouse and garden.</p>
+            <p>Our coffee beans are carefully selected and roasted in small batches to ensure the highest quality and flavor. And our garden is bursting with delicious, seasonal vegetables grown with love and care.</p>
+        </section>
+
+        <section id="coffee" class="section fade-in">
+            <h2>Coffee</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="pics/coffee.avif" alt="Coffee Beans 1">
+                    <h3>Razorback, Goats, and Dogs, Oh My!</h3>
+                    <p>This one will put a pep in your step! Enjoy this locally sourced and freshly roasted blend of our premium coffee! </p>
+                </div>
+                <div class="product-item">
+                    <img src="pics/decaf.webp" alt="Coffee Beans 2">
+                    <h3>Decaf Express</h3>
+                    <p>Want a little motivation, but don't need the all that pep in your step? Try our premium decaf blend!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="produce" class="section fade-in">
+            <h2>Fresh Produce</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="pics/tomato.jpg" alt="Tomatoes">
+                    <h3>Tomatoes</h3>
+                    <p>Juicy, ripe tomatoes perfect for salads, sauces, and sandwiches.</p>
+                </div>
+                <div class="product-item">
+                    <img src="pics/onions.jpg" alt="Onions">
+                    <h3>Onions</h3>
+                    <p>Sweet and flavorful onions great for cooking or adding to your favorite dishes.</p>
+                </div>
+                <div class="product-item">
+                    <img src="pics/peppers.jpg" alt="Peppers">
+                    <h3>Peppers</h3>
+                    <p>A variety of peppers, from mild to spicy, to add a kick to your meals.</p>
+                </div>
+                <div class="product-item">
+                    <img src="pics/stewed-tomatoes.jpg" alt="Stewed Tomatoes"> 
+                    <h3>Stewed Tomatoes</h3>
+                    <p>Home-style stewed tomatoes, perfect for adding to sauces, soups, and stews.</p>
+                </div>
+                <div class="product-item">
+                    <img src="pics/tsuace.webp" alt="Tomato Sauce"> 
+                    <h3>Tomato Sauce</h3>
+                    <p>Rich and flavorful tomato sauce made with fresh, vine-ripened tomatoes.</p>
+                </div>
+                <div class="product-item">
+                    <img src="pics/salsa1.webp" alt="Salsa"> 
+                    <h3>Salsa</h3>
+                    <p>Homemade salsa with a perfect blend of tomatoes, onions, peppers, and spices.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section fade-in">
+            <h2>Contact Us</h2>
+            <p>To place an order or inquire about our products, please contact us:</p>
+            <div class="contact-form"><p>Orders Coming Soon!</p>
+          <!--     <a href="tel:[Phone Number]"><i class="fas fa-phone"></i> [Phone Number]</a><br>
+                <a href="mailto:[Email Address]"><i class="fas fa-envelope"></i> [Email Address]</a>
+            --></div>
+        </section>
+
+    </div>
+
+    <script>
+        const fadeInElements = document.querySelectorAll('.fade-in');
+
+        function showElement(element, delay) {
+            setTimeout(() => {
+                element.classList.add('show');
+            }, delay);
+        }
+
+        fadeInElements.forEach((element, index) => {
+            showElement(element, index * 500);
+        });
+    </script>
+</body>
+</html>
