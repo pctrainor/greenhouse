@@ -12,30 +12,28 @@
             padding: 0;
             background: #f4f4f4;
             color: #333;
+            text-align: center; /* Center text by default */
         }
 
         header {
             background: #333;
             color: #fff;
             padding: 20px 0;
-            text-align: center;
         }
 
         .container {
-            width: 90%;
-            max-width: 1200px;
+            width: 95%;
+            max-width: 1200px; /* Increased max-width for better layout */
             margin: 0 auto;
             padding: 20px;
         }
 
         .profile-pic {
-            width: 50vw;
+            width: 75vw;
             max-width: 750px;
             height: auto;
             border-radius: 10%;
-            overflow: visible;
             margin: 20px auto;
-            display: block;
         }
 
         .profile-pic img {
@@ -44,7 +42,6 @@
         }
 
         .social-icons {
-            text-align: center;
             margin: 20px 0;
         }
 
@@ -79,30 +76,26 @@
         .product-list {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center; /* Center product items */
         }
 
         .product-item {
-            width: 30%; 
-            margin-bottom: 20px;
+            width: 30%;
+            margin: 10px; /* Added margin for better spacing */
             padding: 15px;
             background: #fff;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: center; /* Added to center content within .product-item */
+            text-align: center;
         }
 
         .product-item img {
             max-width: 100%;
             height: auto;
             margin-bottom: 10px;
-            display: block; /* Makes the image a block element */
-            margin-left: auto;
-            margin-right: auto; /* Centers the image horizontally */
         }
 
         .contact-form {
-            text-align: center;
             margin-top: 20px;
         }
 
@@ -148,13 +141,13 @@
             <div class="product-list">
                 <div class="product-item">
                     <img src="pics/coffee.avif" alt="Coffee Beans 1">
-                    <h3>Razorback, Goats, and Dogs, Oh My!</h3>
-                    <p>This one will put a pep in your step! Enjoy this locally sourced and freshly roasted blend of our premium coffee! </p>
+                    <h3>Razorbacks &Goats &Dogs, Oh My!</h3>
+                    <p>This one will put a pep in your step! Enjoy this locally and freshly roasted blend of our premium coffee!</p>
                 </div>
                 <div class="product-item">
                     <img src="pics/decaf.webp" alt="Coffee Beans 2">
                     <h3>Decaf Express</h3>
-                    <p>Want a little motivation, but don't need the all that pep in your step? Try our premium decaf blend!</p>
+                    <p>Want a little motivation, but don't need all that pep in your step? Try our premium decaf blend!</p>
                 </div>
             </div>
         </section>
@@ -178,17 +171,17 @@
                     <p>A variety of peppers, from mild to spicy, to add a kick to your meals.</p>
                 </div>
                 <div class="product-item">
-                    <img src="pics/stewed-tomatoes.jpg" alt="Stewed Tomatoes"> 
+                    <img src="pics/stewed-tomatoes.jpg" alt="Stewed Tomatoes">
                     <h3>Stewed Tomatoes</h3>
                     <p>Home-style stewed tomatoes, perfect for adding to sauces, soups, and stews.</p>
                 </div>
                 <div class="product-item">
-                    <img src="pics/tsuace.webp" alt="Tomato Sauce"> 
+                    <img src="pics/tsuace.webp" alt="Tomato Sauce">
                     <h3>Tomato Sauce</h3>
                     <p>Rich and flavorful tomato sauce made with fresh, vine-ripened tomatoes.</p>
                 </div>
                 <div class="product-item">
-                    <img src="pics/salsa1.webp" alt="Salsa"> 
+                    <img src="pics/salsa1.webp" alt="Salsa">
                     <h3>Salsa</h3>
                     <p>Homemade salsa with a perfect blend of tomatoes, onions, peppers, and spices.</p>
                 </div>
@@ -199,9 +192,7 @@
             <h2>Contact Us</h2>
             <p>To place an order or inquire about our products, please contact us:</p>
             <div class="contact-form"><p>Orders Coming Soon!</p>
-          <!--     <a href="tel:[Phone Number]"><i class="fas fa-phone"></i> [Phone Number]</a><br>
-                <a href="mailto:[Email Address]"><i class="fas fa-envelope"></i> [Email Address]</a>
-            --></div>
+            </div>
         </section>
 
     </div>
